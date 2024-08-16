@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CRUD Application</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>CRUD Operations</h1>
+    <div class="form-container">
+      <form id="add-form">
+        <div class="form-group">
+          <label for="name">Name:</label>
+          <input type="text" id="name" placeholder="Enter name" required>
+        </div>
+        <div class="form-group">
+          <label for="age">Age:</label>
+          <input type="number" id="age" placeholder="Enter age" required>
+        </div>
+        <button id="add-button" type="submit">Add</button>
+      </form>
+    </div>
+    <table>
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Age</th>
+          <th>Actions</th>
+        </tr>
+      </thead>
+      <tbody id="user-list">
+        <!-- User list will be populated here -->
+      </tbody>
+    </table>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>

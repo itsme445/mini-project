@@ -1,0 +1,90 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #fff; /* white background */
+  height: 100vh;
+  margin: 0;
+  overflow: hidden;
+}
+
+.container {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #fff; /* white background */
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  position: relative;
+  z-index: 1;
+  color: #000; /* black text */
+}
+
+.form-container {
+  margin-bottom: 20px;
+  padding: 20px;
+  background-color: #fff; /* white background */
+  border: 1px solid #ddd;
+  border-radius: 10px;
+}
+
+.form-group {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+label {
+  margin-right: 10px;
+  font-weight: bold;
+  color: #000; /* black text */
+}
+
+input[type="text"], input[type="number"] {
+  width: 100%;
+  height: 40px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #fff; /* white background */
+  color: #000; /* black text */
+}
+
+button[type="submit"] {
+  width: 100%;
+  height: 40px;
+  background-color: #4CAF50;
+  color: #000; /* black text */
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background-color: #3e8e41;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: left;
+  color: #000; /* black text */
+  background-color: #fff; /* white background */
+}
+
+th {
+  background-color: #f0f0f0; /* light gray background */
+}
+
+td {
+  background-color: #fff; /* white background */
+}
+
+#user-list {
+  margin-top: 20px;
+}
